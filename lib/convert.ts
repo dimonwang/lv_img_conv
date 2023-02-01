@@ -237,7 +237,7 @@ class Converter {
 #define ${$attr_name}
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST ${$attr_name} uint8_t ` + out_name+ "_map[] = {";
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST ${$attr_name} uint8_t ` + out_name+ "_map[] PSRAM_NC_BSS_LOC = {";
 
         return $c_header;
     }

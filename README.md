@@ -5,7 +5,7 @@
 1. Make sure Node.js is installed.
 1. Not always needed, but recommended: ensure the necessary [native dependencies for canvas](https://github.com/Automattic/node-canvas#compiling) are installed.
 1. Clone this repository.
-1. Run `npm install` to install needed dependencies.
+1. Run `npm install` to install needed dependencies. e.g. ./env.sh
 
 **NOTE: For Docker instructions skip ahead**
 
